@@ -13,6 +13,7 @@ public class BaseDict implements Serializable {
 	private String dict_memo;
 	private Integer start;
 	private Integer rows;
+	private Integer ABC;
 	public String getDict_id() {
 		return dict_id;
 	}
@@ -73,5 +74,6 @@ public class BaseDict implements Serializable {
 	public void setDict_memo(String dict_memo) {
 		this.dict_memo = dict_memo;
 	}
-	
+
+
 }
